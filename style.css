@@ -1,0 +1,337 @@
+
+/*social icons on top  */
+
+.top{
+    width: auto;
+    height: 50px;
+    background-color: #316DC3;
+}
+
+#fb{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 70px;
+    top: 23px;
+}
+
+#twitter{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 100px;
+    top: 23px;
+}
+
+#insta{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 130px;
+    top: 23px;
+}
+
+#yt{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 160px;
+    top: 23px;
+}
+
+#wapp{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 190px;
+    top: 23px;
+}
+
+/* paragraph of top task bar */
+#p1{       
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 17px;
+    margin: 0px;
+}
+
+/* task bar buttons */ */
+
+#b-box{
+    text-align: right;
+}
+#b1{
+    margin-left: 5px; 
+    position: absolute;
+    right: 70px;
+    top: 23px;
+}
+
+#b2{
+    margin-right: 5px;
+    margin-left: 5px;
+    position: absolute;
+    right: 150px;
+    top: 23px;
+}
+
+#b3{
+    margin-right: 5px;
+    position: absolute;
+    right: 250px;
+    top: 23px;
+}
+
+  /*styling navbar links  */
+
+  nav{
+    background-color: white;
+     overflow: auto;
+    position: relative;
+    position: sticky;
+    top: 0px;
+}
+
+#menu-links a{
+    text-decoration-line: none;
+    font-family: sans-serif;
+    margin-right: 18px;
+    padding: 9px;
+}
+#menu-links{
+    position: absolute ;
+    right: 40px;
+    bottom: 30px;
+}
+#menu-links a:focus{
+    background-color: royalblue;
+    color: white;
+    padding: 9px; 
+    border-radius: 14px;
+}
+
+/* web banner  */
+
+#banner img{
+
+    width: 100%;
+    height: 500px;
+}
+
+/* moving news strip  */
+#news{
+    background-color: royalblue;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+#news p{
+    padding: 7px;
+    font-family: sans-serif;
+}
+ 
+/* intro section */
+#intro{
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+#intro p{
+    text-align: justify; 
+    line-height: 0.7cm;
+    margin-bottom: 0.8cm;
+    font-family: sans-serif;
+}
+
+/* statistics section */
+
+#counter{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.c{
+    display: inline-block;
+    background-color: royalblue;
+    color: white;
+    width: 310px;
+    height: 300px;
+    text-align: center;
+    padding-top: 70px; 
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: -5px;
+    
+    
+}
+
+.num{
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.color{
+    color: #00FF00;
+    font-size: 21px;
+    font-weight: 600;
+}
+.counter-icons{
+    width: 40px;
+    height: auto;
+}
+
+/* what we are doing section */
+
+#services {
+    text-align: center;
+}
+
+.serv{
+    width: 350px;
+    height: 175px;
+    color: royalblue;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    padding-top: 30px;
+    margin: 20px;
+    box-shadow: 2px 4px 8px 6px lightgrey;
+
+}
+#services h2{
+    font-size: 34px;
+    color:green ;
+}
+
+/* mission section */
+
+.mis{
+    width: 350px;
+    height: 55px;
+    outline: 2px solid #E3E6F4;
+    display: inline-block;
+    margin: 10px 15px 10px 15px;
+    background-color: #EEEFF5;
+    color: royalblue;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.mis img{
+    margin-right: 20px;
+}
+
+/* gallery */
+
+.gallery{
+    height: 150px;
+    width: 220px;
+    display: inline-block;
+    
+}
+
+#gallery{
+    text-align: center;
+}
+
+#gallery h2{
+    font-size: 34px;
+    color: green;
+}
+
+/* footer */
+
+#footer{
+    height: 400px;
+    width: 100%;
+    background-color: #333;
+}
+
+#add{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 30px;
+    width: 350px;
+    color: whitesmoke;
+    
+}
+#add span{
+    display: inline-block;
+    padding: 4px;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.use-links{
+    width: 150px;
+    height: 150px; 
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 600px;
+    
+    
+    /* position: absolute;
+    left: 460px;
+    top: 65px;
+     */
+
+}
+
+.use-links p{
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+
+#foot-icon{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 5px; 
+    margin-bottom: 300px;
+
+}
+
+#foot-icon p{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: -5px;
+
+
+}
+
+#foot-icon img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+    margin-right: 15px;
+}
+
+
+
+/* copyright */
+
+.rights{
+    background-color: royalblue;
+    height: 43px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 50px;
+}
